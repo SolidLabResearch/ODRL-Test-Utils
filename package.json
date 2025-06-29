@@ -1,0 +1,33 @@
+{
+  "name": "odrl-test-utils",
+  "version": "1.0.0",
+  "description": "A collection of tools to generate test cases",
+  "homepage": "https://github.com/SolidLabResearch/ODRL-Test-Utils#readme",
+  "bugs": {
+    "url": "https://github.com/SolidLabResearch/ODRL-Test-Utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolidLabResearch/ODRL-Test-Utils.git"
+  },
+  "license": "MIT",
+  "author": "Patrick Hochstenbach <Patrick.Hochstenbach@UGent.be>",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "odrl-test-utils": "bin/make_constraint.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@comunica/query-sparql": "^4.3.0",
+    "@comunica/query-sparql-file": "^4.3.0",
+    "n3": "^1.26.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {}
+}
