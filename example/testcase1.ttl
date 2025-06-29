@@ -8,9 +8,9 @@
 
 <> a ex:TestCase;
     dct:title "Any request results into yes (Alice Request).";
-    ex:policy <../data/policy1.ttl>;
-    ex:request <../data/request1.ttl>;
-    ex:sotw <../data/sotw1.ttl>;
+    ex:policy <../example/policy1.ttl>;
+    ex:request <../example/request1.ttl>;
+    ex:sotw <../example/sotw1.ttl>;
     ex:expectedReport [ 
         a report:PolicyReport;
         report:ruleReport [
