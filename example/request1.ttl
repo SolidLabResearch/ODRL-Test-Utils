@@ -1,0 +1,18 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix odrl: <http://www.w3.org/ns/odrl/2/>.
+@prefix ex: <http://example.org/>.
+@prefix temp: <http://example.com/request/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix report: <https://w3id.org/force/compliance-report#>.
+
+<urn:uuid:d7bef7bf-b425-40ba-bdf7-7d6f39b502ba> a odrl:Request;
+    odrl:uid <urn:uuid:c1a4bf5b-1723-4a42-8372-ba08550e84a8>;
+    dct:description "<changeme> description";
+    odrl:permission <urn:uuid:c02a4165-958a-4498-9364-b1e7baa38ff1>.
+<urn:uuid:c02a4165-958a-4498-9364-b1e7baa38ff1> a odrl:Permission;
+    odrl:assignee ex:bob;
+    odrl:action odrl:read;
+    odrl:target ex:x.
+
