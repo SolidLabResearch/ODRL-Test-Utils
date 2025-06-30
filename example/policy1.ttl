@@ -8,7 +8,6 @@
 @prefix report: <https://w3id.org/force/compliance-report#>.
 
 <urn:uuid:9b38a6ca-4ded-4aed-bd8d-b8f008b2fd25> a odrl:Set;
-    odrl:uid <urn:uuid:9b38a6ca-4ded-4aed-bd8d-b8f008b2fd25>;
     odrl:description "<changeme> What is this about?";
     odrl:source <https://github.com/SolidLabResearch/ODRL-Test-Conflicts/>;
     odrl:permission <urn:uuid:545479f8-51da-446b-a29f-ca22152f5f8e>.

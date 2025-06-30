@@ -28,6 +28,5 @@
     "@comunica/query-sparql-file": "^4.3.0",
     "n3": "^1.26.0",
     "uuid": "^11.1.0"
-  },
-  "devDependencies": {}
+  }
 }
