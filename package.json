@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "odrl-test-utils": "bin/make_constraint.js"
+    "make_ground": "bin/make_ground.js"
   },
   "directories": {
     "lib": "lib"
