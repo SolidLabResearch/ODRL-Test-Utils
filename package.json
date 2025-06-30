@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "make_ground": "bin/make_ground.js"
+    "odrl_test_utils": "bin/odrl_test_utils.js"
   },
   "directories": {
     "lib": "lib"
@@ -26,6 +26,7 @@
   "dependencies": {
     "@comunica/query-sparql": "^4.3.0",
     "@comunica/query-sparql-file": "^4.3.0",
+    "commander": "^14.0.0",
     "n3": "^1.26.0",
     "uuid": "^11.1.0"
   }
