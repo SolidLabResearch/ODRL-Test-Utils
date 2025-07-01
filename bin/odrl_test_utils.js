@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { program } = require('commander');
 const { makePolicy,makeRequest,makeSotw, makeTestcase, makeGround } = require("../lib/util");
-const SOURCE = "https://github.com/SolidLabResearch/ODRL-Test-Conflicts/";
+const SOURCE = "https://github.com/SolidLabResearch/ODRL-Test-Suite/";
 const fs = require('fs');
 
 program
