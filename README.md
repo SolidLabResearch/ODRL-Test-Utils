@@ -21,6 +21,12 @@ npx odrl_test_utils sample sotw
 # Create a sample test case
 npx odrl_test_utils sample testcase
 
+# Create a sample test case for a prohibition
+npx odlr_test_utils sample --type prohibition testcase
+
+# Create a sample test case with an action, constraint, party and target report
+npx odrl_test_utils sample --action --constraint --party --target testcase
+
 # Ground an RDF document 
 #  - Replace all blank nodes by UUIDs
 #  - Replace all paths to local files by their 'main subject' 
