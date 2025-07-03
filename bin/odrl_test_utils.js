@@ -10,20 +10,26 @@ program
 
 program
   .command('sample')
+  .option('--source <source>','Location of Git repo',SOURCE)
+  .option('--type <type>','Create (permission|prohibition|duty) example','permission')
+  .option('--action', 'Add an action report')
+  .option('--constraint', 'Add a constraint report')
+  .option('--party', 'Add a party report')
+  .option('--target', 'Add a target report')
   .argument('<what>','policy|request|sotw|testcase')
-  .action( (what) => {
+  .action( (what, options) => {
       switch (what) {
           case 'policy':
-            console.log(makePolicy({source: SOURCE}));
+            console.log(makePolicy(options));
             break;
           case 'request':
-            console.log(makeRequest());
+            console.log(makeRequest(options));
             break;
           case 'sotw':
             console.log(makeSotw());
             break;
           case 'testcase':
-            console.log(makeTestcase());
+            console.log(makeTestcase(options));
             break;
           default:
             console.error('need policy|request|sotw|testcase');
